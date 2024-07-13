@@ -22,12 +22,10 @@ _**3. Project Structure:-**_
 
 **tfidf_vectorizer.pkl:** Saved TF-IDF vectorizer.
 
-**requirements.txt:** List of dependencies required to run the project.
-
 **README.md:** Project overview and instructions (this file).
 
 
-_**4. Installation:-**_
+_**4. Usage:-**_
 
 **Clone the repository:**
 
@@ -40,10 +38,6 @@ cd DEV21SPRINT
 python -m venv env
 
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
-
-**Install the required packages:**
-
-pip install -r requirements.txt
 
 **Download NLTK data:**
 
@@ -64,8 +58,6 @@ Enter a customer review in the text area and click "Analyze Sentiment" to see th
 _**5. File Descriptions:-**_
 
 **sentiment_analysis.py:** Contains the Streamlit app code for deploying the sentiment analysis model.
-
-**requirements.txt:** Lists the required Python packages for the project.
 
 **README.md:** Provides an overview and instructions for the project.
 
