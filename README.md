@@ -1,9 +1,9 @@
 **Customer Review Sentiment Analysis:-**
 
-**_Project Overview:_**
+**_1. Project Overview:_**
 Our project aims to build a sentiment analysis system that classifies customer reviews into three sentiment categories: Positive, Negative, and Neutral. The system utilizes Natural Language Processing (NLP) techniques and machine learning algorithms to analyze and categorize sentiments from textual data.
 
-_**Features:-**_
+_**2. Features:-**_
 
 **Text Preprocessing:** Clean and preprocess the text data by removing special characters, digits, and stopwords, and by lemmatizing the words.
 
@@ -13,9 +13,10 @@ _**Features:-**_
 
 **Interactive Web App:** We have used _Streamlit_ to provide an easy-to-use web interface for analyzing customer reviews.
 
-_**Project Structure:-**_
 
-**DEVSPRINT code file.py:** Streamlit app for deploying the sentiment analysis model.
+_**3. Project Structure:-**_
+
+**sentiment_analysis.py:** Streamlit app for deploying the sentiment analysis model.
 
 **sentiment_model.pkl:** Saved sentiment analysis model.
 
@@ -25,7 +26,8 @@ _**Project Structure:-**_
 
 **README.md:** Project overview and instructions (this file).
 
-_**Installation:-**_
+
+_**4. Installation:-**_
 
 **Clone the repository:**
 
@@ -51,24 +53,23 @@ nltk.download('stopwords')
 
 nltk.download('wordnet')
 
-
-_**Running the Streamlit App:-**_
+**Running the Streamlit App:-**
 
 Run the Streamlit app to interact with the sentiment analysis model:
 
-streamlit run DEVSPRINT code file.py
+streamlit run sentiment_analysis.py
 
 Enter a customer review in the text area and click "Analyze Sentiment" to see the predicted sentiment category.
 
-_**File Descriptions:-**_
+_**5. File Descriptions:-**_
 
-**DEVSPRINT code file.py:** Contains the Streamlit app code for deploying the sentiment analysis model.
+**sentiment_analysis.py:** Contains the Streamlit app code for deploying the sentiment analysis model.
 
 **requirements.txt:** Lists the required Python packages for the project.
+
 **README.md:** Provides an overview and instructions for the project.
 
-
-_**Acknowledgments:-**_
+_**6. Acknowledgments:-**_
 
 This project uses data and tools from the Natural Language Toolkit (NLTK) and Scikit-learn libraries.
 
