@@ -61,8 +61,23 @@ _**5. File Descriptions:-**_
 
 **README.md:** Provides an overview and instructions for the project.
 
-_**6. Acknowledgments:-**_
+_**6. Some snippets:-**_
+
+   **Accuracy and model evaluation:**
+   
+   ![image](https://github.com/user-attachments/assets/49dfb67c-307a-4cca-b48a-d24ac22d7496)
+  
+   **On web using streamlit:**
+   
+   ![image](https://github.com/user-attachments/assets/51abede6-9778-4266-b4ac-5bd730cd619b)
+
+   ![image](https://github.com/user-attachments/assets/3b3b5e7f-bf2d-4336-8906-e9caac939dae)
+
+
+_**7. Acknowledgments:-**_
 
 This project uses data and tools from the Natural Language Toolkit (NLTK) and Scikit-learn libraries.
+
+Dataset taken from Kaggle
 
 Special thanks to the open-source community for providing valuable resources and support.
